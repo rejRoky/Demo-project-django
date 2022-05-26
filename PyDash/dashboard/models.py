@@ -8,3 +8,4 @@ class Summary (models.Model):
     pStock = models.IntegerField()
 
 
+
