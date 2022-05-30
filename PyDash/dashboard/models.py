@@ -15,6 +15,7 @@ class Dashboard (models.Model):
     userInfo = models.CharField(max_length=255)
     rfidInfo = models.IntegerField()
 
+
 class Complain (models.Model):
     complainLog = models.CharField(max_length=2083)
     saleInfo = models.CharField(max_length=255)
